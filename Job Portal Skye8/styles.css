@@ -9,6 +9,8 @@ body {
     padding: 5px 10px ;
     text-align: center;
     justify-content: space-evenly;
+    position: relative
+    
 
        
 }
@@ -56,6 +58,7 @@ body {
     background-image: url('assets/images/hand-businessman-pressing-virtual-button-man-hand-businessman-pressing-virtual-button-169314624.webp');
     background-size: cover;
     padding: 100px 100px;
+    max-height: 20%;
 }
 .hero-section{
     padding: 20px;
@@ -108,13 +111,16 @@ body {
     position: relative;
     top: 20px;
     right: 3%;
+    max-height: 100%;
     
 }
+
 .form-control {
-    border-radius: 10%;
+    border-radius: 12px;
     color: rgb(161, 118, 118);
     padding: 15px 32px;
     text-align: center;
+
 
 }
 .popular-keywords{
@@ -130,4 +136,9 @@ body {
 }
 .reg {
     background-color: rgb(60, 60, 107);
+}
+.categories {
+    border-radius: 12px;
+    max-width: 15%;
+    font-size: x-small;
 }
