@@ -136,8 +136,16 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     border-radius: 25%;
-    top: 14px;
+    top: 10px;
 
+}
+.badge{
+    position: relative;
+    top: 50%;
+    border: 2px rgb(95, 60, 60);
+    border-radius:2px;
+    justify-content: space-around;
+    padding: 12px 10px;
 }
 .reg {
     background-color: rgb(60, 60, 107);
@@ -214,6 +222,8 @@ body {
     top: 35%;
     text-decoration: none;
 }
-
+.badge{
+    position: inherit;
+}
 
 
